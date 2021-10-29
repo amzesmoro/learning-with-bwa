@@ -1,3 +1,4 @@
+import 'package:bwa_flutter_kos/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -95,6 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text(
               'You have pushed the button this many times:',
+              style: blackTextStyle,
             ),
             Text(
               '$_counter',
